@@ -1,0 +1,201 @@
+
+
+div.container_1{
+    margin: 10px 10px 10px 90px;
+    background-color: rgb(104, 181, 187);
+    border-radius: 12px;
+    height: 100%;
+    width: 80%;
+    display: flex; 
+    justify-content: center;
+
+    transition-duration: 500ms;
+    transition-delay: 400ms;
+}
+
+.container_1 div{
+    margin: 50px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 80%;
+    width: 90%;
+}
+
+.box1{
+    display: flex;
+    box-shadow: 1px 4px 20px black;
+
+    transition-duration: 500ms;
+    transition-delay: 120ms;
+}
+
+.box1:hover{
+    box-shadow: 10px 10px 30px rgb(104, 181, 187);
+}
+
+.box1 section.list_section{
+    color: whitesmoke;
+    border-radius: 20px 0px 0px 20px;
+    border-right: 1px solid black;
+    width: 35%;
+    background-image: url("../Images/magic_blue.jfif");
+        
+    transition-duration: 500ms;
+    transition-delay: 350ms;
+}
+
+.box1 section.list_section:hover{
+    width: 80%;
+    box-shadow: -7px -7px 30px black;
+                
+}
+
+.box1 section.list_section h3{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20%;
+    font-weight: 600;
+    font-size: 150%;
+    font-family: comic sans ms;
+}
+
+.box1 section.list_section ul li{
+    margin-bottom: 20%;
+    margin-left: 7%;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.box1 section.list_section ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+
+    transition-duration: 350ms;
+    transition-delay: 100ms;
+}
+
+.box1 section.list_section ul li a:hover{
+    font-size: 30px;
+}
+
+.box1 section.form_section{
+    padding-bottom: 25px;
+    border-radius: 0px 20px 20px 0px;
+    color: rgba(13, 74, 155, 0.781);
+    font-family: sans-serif;
+    background-color: rgb(232, 232, 232);
+    display: table;
+    justify-content: center;
+}
+
+
+.box1 section.form_section p{
+     padding-right: 30px;
+     padding-left: 30px;
+     margin-bottom: 40px;
+     padding-top: 18px;
+     font-family: sans-serif;
+     font-weight: 750;
+
+}
+
+.box1 section.form_section form{
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+::placeholder{
+   font-size: 11px;
+   opacity: 0.5;
+}
+
+.box1 section.form_section section.buttons{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 7%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box1 section.form_section section.buttons button{
+    color: #4b4b7c;
+    height: 10%;
+    width: 22%;
+    font-size: 10px;
+    background-color: white;
+    margin: 4px;
+
+    border: 1px solid white;
+    border-radius: 5px;
+
+    transition-duration: 500ms;
+    transition-delay: 80ms;
+}
+
+.box1 section.form_section section.buttons button:hover{
+    background-color: rgba(13, 74, 155, 0.781);
+    color: whitesmoke;
+}
+
+.box1 section.form_section form.temp{
+    margin-top: 20px;
+}
+
+.box1 section.form_section section.isButton{
+    display: flex;
+    align-items: flex-start;
+}
+
+.box1 section.form_section section.isButton section{
+    /*border: 2px solid black;*/
+}
+
+.box1 section.form_section section.buttons1{
+    margin-left: 30px;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    color:rgba(13, 74, 155, 0.781); 
+}
+
+.box1 section.form_section section.buttons1 button{
+    color: rgba(13, 74, 155, 0.781);
+    font-size: 11px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+
+    transition-duration: 500ms;
+    transition-delay: 80ms;
+}
+
+.box1 section.form_section section.buttons1 button:hover{
+    color: whitesmoke;
+    background-color: rgba(13, 74, 155, 0.781);
+}
+
+.box1 section.form_section section.isButton section.buttons2{
+    margin-left:3%;
+    margin-right: 40%;
+}
+
+.box1 section.form_section section.isButton section.buttons2 p{
+    margin:2px;
+    padding-left:3px;
+    padding-top: 2px;
+    padding-right: 3px;
+    font-size: 11px;
+    opacity: 0.5;
+
+    transition-duration: 500ms;
+    transition-delay: 80ms;
+}
+
+.box1 section.form_section section.isButton section.buttons2 p:hover{
+    opacity: 1;
+}
