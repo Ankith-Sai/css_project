@@ -10,3 +10,4 @@ that the interactivity is maintained.
 
 Subtle animations are been made to maintain modern design language and esthetic.
 
+![Screenshot 2021-01-08 at 9 47 32 PM](https://user-images.githubusercontent.com/72000921/104084546-f7f6ed80-526d-11eb-97aa-f651e78dd068.png)
