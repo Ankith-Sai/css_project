@@ -9,3 +9,4 @@ The project is a basic registration form which is made using CSS and HTML but is
 that the interactivity is maintained.
 
 Subtle animations are been made to maintain modern design language and esthetic.
+
